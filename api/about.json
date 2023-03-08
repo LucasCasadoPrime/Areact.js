@@ -1,0 +1,96 @@
+{
+  " client ": {
+    " host ": "127.0.0.1"
+  },
+  "Services": {
+    "Github": {
+      "Action": [
+        {
+          "name": "getWebhooks",
+          "description": "gets all webhooks for a repository."
+        },
+        {
+          "name": "getCommits",
+          "description": "gets all commits for a repository."
+        },
+        {
+          "name": "getStarredOfRepo",
+          "description": "gets all users who starred a repository."
+        },
+        {
+          "name": "getBranches",
+          "description": "gets all branches for a repository."
+        },
+        {
+          "name": "getRepos",
+          "description": "gets all repositories for a user."
+        },
+        {
+          "name": "getARepo",
+          "description": "gets a repository."
+        },
+        {
+          "name": "getFollowers",
+          "description": "gets all followers for a user."
+        },
+        {
+          "name": "getFollowing",
+          "description": "gets all users that a user is following."
+        }
+      ],
+      "Reaction": [
+        {
+          "name": "createWebhook",
+          "description": "creates a webhook for a repository."
+        },
+        {
+          "name": "deleteWebhook",
+          "description": "deletes a webhook for a repository."
+        }
+      ]
+    },
+    "Discord": {
+      "Reaction": [
+        {
+          "name": "discordSendMessage",
+          "description": "sends a message to a Discord channel."
+        },
+        {
+          "name": "discordSendEmbed",
+          "description": "sends an embed to a Discord channel."
+        }
+      ]
+    },
+    "Email": {
+      "Reaction": [
+        {
+          "name": "sendEmail",
+          "description": "sends an email to a user."
+        }
+      ]
+    },
+    "Epitech Door": {
+      "Action": [
+        {
+          "name": "openDoor",
+          "description": "opens the Epitech door."
+        }
+      ],
+      "Reaction": [
+        {
+          "name": "openDoor",
+          "description": "opens the Epitech door."
+        }
+      ]
+    },
+    "OpenWeatherMap": {
+      "Action": [
+        {
+          "name": "getWeather",
+          "description": "gets the weather for a city."
+        }
+      ]
+    }
+  }
+}
+  
