@@ -1,0 +1,57 @@
+.SignIn {
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #00d950;
+    cursor: pointer;
+  }
+  

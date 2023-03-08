@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 250px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .card-body p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .card-body p strong {
+    font-weight: 600;
+    margin-right: 4px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #00d950;
+    cursor: pointer;
+  }
+  
+  a.button-cards {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+
+  a.button-cards:hover {
+    background-color: #00d950;
+    cursor: pointer;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links li button {
+    display: inline-block;
+    background-color: #32cd75;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-links li button:hover {
+    background-color: #333;
+  }
+  
+  .logo h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }

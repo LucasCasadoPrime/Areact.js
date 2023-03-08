@@ -1,0 +1,57 @@
+.Homescreen {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons button {
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .buttons button:last-child {
+    margin-right: 10;
+  }
+  
+  .buttons button:hover {
+    background-color: #555;
+  }
